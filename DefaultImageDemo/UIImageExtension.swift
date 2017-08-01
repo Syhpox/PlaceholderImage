@@ -39,7 +39,7 @@ extension UIImage {
     class func fc_defaultImg(_ height: CGFloat, backgroundColor: UIColor = .gray) -> UIImage? {
         let defaultColor = UIColor.init(red: 195 / 255.0, green: 195 / 255.0, blue: 195 / 255.0, alpha: 1.0)
         // 宽高比w / h = 7 / 5.6
-        let size = CGSize(width: CGFloat(7 / 5.8) * height, height: height)
+        let size = CGSize(width: CGFloat(7 / 5.6) * height, height: height)
         UIGraphicsBeginImageContext(size)
         
         if let ctx = UIGraphicsGetCurrentContext() {
